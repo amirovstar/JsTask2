@@ -25,7 +25,7 @@ const textarea = document.getElementById("inputText");
     let isWord = false;
 
     for (let i = 0; i < text.length; i++) {
-      if (text[i] !== ' ' && text[i] !== '\n' && text[i] !== '\t') {
+      if (text[i] !== ' ' && text[i] !== '\n') {
         if (!isWord) {
           wordCount++;
           isWord = true;
